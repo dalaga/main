@@ -1,0 +1,414 @@
+@charset "utf-8";
+a:link, a:hover, a:visited {text-decoration: none !important;}
+a:link {
+  color: #421c52 !important;
+}
+a:hover {
+  color: #7B0099 !important;
+}
+a:visited {
+  color: #333333 !important;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  position: relative;
+  padding-top: 60px;
+}
+
+/* Navigation
+â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+ul.nav li {
+  display: inline-block;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+.navbar-brand small {
+  display:block;
+  font-size:12px;
+}
+.navbar {
+  border=0;
+}
+.navbar-brand {
+  /*margin-left: 45px;*/
+}
+a.navbar-brand {
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 2px;
+ /* margin-left: 20%;*/
+  padding-right: 0;
+  padding-bottom: 0;
+  font-size: 1.75em;
+  font-weight: 700;
+}
+.navbar-toggle {
+  top:10px;
+}
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.navbar-default .navbar-brand {
+  color: #421c52;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #7b0099;
+}
+.navbar-default .navbar-text {
+  color: #421c52;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #421c52;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #7b0099;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #421c52;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #7b0099;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #7b0099;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #7b0099;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #7b0099;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #421c52;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #421c52;
+}
+.navbar-default .navbar-link {
+  color: #421c52;
+}
+.navbar-default .navbar-link:hover {
+  color: #7b0099;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #421c52;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #7b0099;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #7b0099;
+    background-color: #ffffff;
+  }
+}
+
+/* Intro
+â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+.text-title h1 {
+  font-weight: 300;
+  font-size: 3em;
+  color: #000;
+  position: relative;
+  margin-bottom: 0;
+}
+.text-title h2 {
+  margin-top: 0;
+}
+.purple {
+  background-color: #421c52;
+  padding-top: 2%;
+}
+.img-circle {
+  border-radius: 50%;
+  margin-top: 2%;
+  margin-right: 2.5%;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  float: left;
+}
+.aboutme {
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 1%;
+}
+.aboutme h1 {
+  background-color: #421c52;
+  color: #fff;
+  text-align: left;
+  font-weight: 700;
+  font-size: 3em;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 1%;
+}
+.aboutme h2 {
+  color: #000;
+  padding-bottom: 3.5%;
+  font-weight: 200;
+  font-size: 1.75em;
+  line-height: 1.5;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/*Project Section
+â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+.page a {
+  color: #7B0099;
+  font-weight: 700;
+}
+.page {
+  padding: 5%;
+  margin: auto;
+  padding-top: 2%;
+  line-height: 1.3;
+  background-color: #F2F2F2;
+}
+h1.projectHeader {
+  font-family: 'Quicksand', sans-serif;
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  font-size: 3em;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 0;
+}
+/*Flex items*/
+
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-item {
+  display: flex;
+  padding: 0.5em;
+  width: 100%;
+}
+@media all and (min-width: 40em) {
+  .list-item {
+    width: 50%;
+  }
+}
+@media all and (min-width: 60em) {
+  .list-item {
+    width: 33.33%;
+  }
+}
+.list-content {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+.list-content p {
+  flex: 1 0 auto;
+    font-size: 1.2em;
+    font-family: "Open Sans", sans-serif;
+}
+.list-content a {
+  flex: 1 0 auto;
+  font-size: 1.3em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+}
+a.list-content a:hover {
+  color: #421c52;
+}
+.workImg {
+    padding-bottom: 2.5%;
+}
+.list-content h3 {
+  text-align: center;
+  color: #421c52;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+/* Contact Area
+â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“*/
+.connect h1 {
+  background-color: #421c52;
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 3em;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 0;
+}
+.connect p {
+    font-family: 'Quicksand', sans-serif;
+    color: #000;
+  text-align: center;
+    padding-bottom: 1%;
+    font-size: 1.5em;
+  padding-right: 15%;
+  padding-left: 15%;
+  margin-top: 1%;
+}
+.socialItems {
+    display: block;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+ul.social{
+    display: block;
+    margin: 1% 0 5% 0;
+    list-style-type: none;
+    text-align: center;
+  padding-bottom: 5%;
+}
+ul.social li{
+    font-size: 3em;
+    display: inline;
+    padding: 0 2%;
+}
+
+@media all and (max-width: 1280px) {
+.page {
+  padding: 0;
+  margin: auto;
+  padding-bottom: 2.5%;
+  padding-top: 1%;
+  line-height: 1.3;
+  }
+ul.list {
+    padding-left: 5px;
+  }
+.aboutme h1 {
+  font-size: 2.75em;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%;
+  margin-top: 0;
+  }
+.list {
+  margin-bottom: 0;
+  }
+h1.projectHeader {
+  padding-bottom: 1%;
+  padding-top: 1%;
+  }
+}
+@media all and (max-width: 1138px) {
+.page {
+  padding: 0;
+  margin: auto;
+  padding-top: .5%;
+  padding-bottom: 1.5%;
+  line-height: 1.3;
+  }
+ul.list {
+    padding-left: 5px;
+  }
+.aboutme h1 {
+  font-size: 2.5em;
+  }
+h1.projectHeader {
+  font-size: 2.5em;
+  padding-bottom: .5%;
+  padding-top: .5%;
+  }
+.aboutme h2 {
+  font-size: 1.5em;
+  line-height: 1.35;
+  }
+.connect h1 {
+  font-size: 2.5em;
+  }
+.connect p {
+  font-size: 1.35em;
+  }
+}
+@media all and (max-width: 640px) {
+ul.list {
+    padding-left: 5px;
+  }
+.aboutme h1 {
+  font-size: 2em;
+  }
+.aboutme h2 {
+  font-size: 1.35em;
+  line-height: 1.35;
+  }
+h1.projectHeader {
+  font-size: 2.25em;
+  }
+.connect h1 {
+    font-size: 2em;
+  }
+}
+@media all and (max-width: 480px) {
+  .page {
+    padding: 0;
+    margin-bottom: 0;
+    padding-top: 1%;
+    line-height: 1.3;
+    }
+  .img-circle {
+    display: none;
+  }
+  .aboutme h1 {
+    font-size: 1.75em;
+  }
+  h1.projectHeader {
+    font-size: 2em;
+  }
+  .aboutme h2 {
+    font-size: 1.35em;
+    line-height: 1.35;
+  }
+  .connect h1 {
+    font-size: 1.5em;
+  }
+  .connect p {
+    font-size: 1.35em;
+  }
+  ul.list {
+    padding-left: 5px;
+  }
+}
