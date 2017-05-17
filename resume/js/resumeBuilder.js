@@ -10,7 +10,8 @@ var bio = {
     "welcomeMessage": "Welcome to my online resume!",
     "skills": [
         "HTML5", "CSS3", "JavaScript", "JQuery", "BootStrap",
-        "GitHub"
+        "GitHub", "KnockoutJS", "Node.js", "Angular2", "Python3",
+        "Spark", "PySpark", "DataBricks",
     ],
     "biopic": "images/mypic.png"
 };
