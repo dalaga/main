@@ -1,10 +1,10 @@
 @charset "utf-8";
 a:link, a:hover, a:visited {text-decoration: none !important;}
 a:link {
-  color: #421c52 !important;
+  color: #9dc224 !important;
 }
 a:hover {
-  color: #7B0099 !important;
+  color: #ff5c37 !important;
 }
 a:visited {
   color: #333333 !important;
@@ -17,8 +17,8 @@ body {
   padding-top: 60px;
 }
 
-/* Navigation
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Navigation*/
+
 ul.nav li {
   display: inline-block;
   font-size: 1.3em;
@@ -51,31 +51,31 @@ a.navbar-brand {
   border-color: #ffffff;
 }
 .navbar-default .navbar-brand {
-  color: #421c52;
+  color: #9dc224;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #7b0099;
+  color: #ff5c37;
 }
 .navbar-default .navbar-text {
-  color: #421c52;
+  color: #9dc224;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #421c52;
+  color: #9dc224;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #7b0099;
+  color: #ff5c37;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu {
   background-color: #ffffff;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
-  color: #421c52;
+  color: #9dc224;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-  color: #7b0099;
+  color: #ff5c37;
   background-color: #ffffff;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
@@ -84,7 +84,7 @@ a.navbar-brand {
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-  color: #7b0099;
+  color: #ff5c37;
   background-color: #ffffff;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -107,37 +107,36 @@ a.navbar-brand {
   background-color: #ffffff;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #421c52;
+  background-color: #9dc224;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #421c52;
+  border-color: #9dc224;
 }
 .navbar-default .navbar-link {
-  color: #421c52;
+  color: #9dc224;
 }
 .navbar-default .navbar-link:hover {
-  color: #7b0099;
+  color: #ff5c37;
 }
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #421c52;
+    color: #9dc224;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #7b0099;
+    color: #ff5c37;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #7b0099;
+    color: #ff5c37;
     background-color: #ffffff;
   }
 }
 
-/* Intro
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Intro */
 .text-title h1 {
   font-weight: 300;
   font-size: 3em;
@@ -149,7 +148,7 @@ a.navbar-brand {
   margin-top: 0;
 }
 .purple {
-  background-color: #421c52;
+  background-color: #9dc224;
   padding-top: 2%;
 }
 .img-circle {
@@ -168,7 +167,7 @@ a.navbar-brand {
   padding-bottom: 1%;
 }
 .aboutme h1 {
-  background-color: #421c52;
+  background-color: #9dc224;
   color: #fff;
   text-align: left;
   font-weight: 700;
@@ -255,21 +254,20 @@ h1.projectHeader {
   font-weight: 200;
 }
 a.list-content a:hover {
-  color: #421c52;
+  color: #9dc224;
 }
 .workImg {
     padding-bottom: 2.5%;
 }
 .list-content h3 {
   text-align: center;
-  color: #421c52;
+  color: #9dc224;
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
 }
-/* Contact Area
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“*/
+/* Contact Area */
 .connect h1 {
-  background-color: #421c52;
+  background-color: #9dc224;
   font-family: 'Quicksand', sans-serif;
   color: #fff;
   text-align: center;

@@ -84,7 +84,7 @@ var work = {
         },
         {
             "employer": "Malolo Bed and Breakfast",
-            "title": "Business Owner / DBA / Web Developer",
+            "title": "Web Developer",
             "location": "Washington DC",
             "dates": "Oct 2012 - Present",
             "description": "Leveraging CRM, GIS and Digital Marketing tools to manage and enhance customer relations, Works with multiple vendors on business applications to help collect data on travel shoppers and analyze their travel and spending patterns., Manage Digital Marketing, Social Media and Business Analytics, Consults as a GIS / DBA SME for Ward 7 Campaign Voters Database with Culver Celeritas on joint venture which includes curation, warehousing, and mining of DC data on voters, Design and create database tables and model using UML, ERD diagram using SQL Developer (Modeler), Toad Data Modeling and SQLPlus., Built and developed GIS mapping Component via APEX 5.1 UI using ArcGIS JavaScript API and Leaflet API., Use ArcGIS online to build map services, ArcGIS Desktop suite (ArcMap and ArcCatalog) to build MXD files and manage the Geodatabases., Use Python as data extraction, scripting tool and for geoprocessing"
