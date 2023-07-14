@@ -76,11 +76,18 @@ var education = {
 
 var work = {
     "jobs": [{
+            "employer": "INCATech, LLC",
+            "title": "Senior DevOps Engineer",
+            "location": "Washington DC",
+            "dates": "Aug 2019",
+            "description": "TBA"
+        },
+             {
             "employer": "Simple Tech Solutions, LLC",
             "title": "Data Analytics Architect & Full Stack Developer",
             "location": "Washington DC",
             "dates": "Jan 2017",
-            "description": "Currently working on Scrum Master Certification"
+            "description": ""
         },
         {
             "employer": "Malolo Bed and Breakfast",
